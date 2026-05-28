@@ -9,9 +9,9 @@ from telegram.ext import (Application, CommandHandler, CallbackQueryHandler,
                            ContextTypes, filters)
 
 # ─── CONFIG ────────────────────────────────────────────────
-BOT_TOKEN  = "8257704799:AAHKz6r02oL8SKhdehg6niT3IflvzeUFqJY"       # @BotFather dan oling
-CHANNEL_ID = -3915777311              # Kanal ID (manfiy son)
-ADMIN_IDS  = [7514690928]                 # Sizning Telegram ID
+BOT_TOKEN  = "YOUR_BOT_TOKEN_HERE"       # @BotFather dan oling
+CHANNEL_ID = -1001234567890              # Kanal ID (manfiy son)
+ADMIN_IDS  = [123456789]                 # Sizning Telegram ID
 DB_PATH    = "channel_bot.db"
 
 logging.basicConfig(level=logging.INFO,
